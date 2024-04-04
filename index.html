@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" >
+                <img src="img\hand (1).png" alt="" >
+                <h4>CyberTech</h4>
+            </div>
+            <div class="header">
+                <div>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Sign In</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button type="button" class="btn">Get Started Free </i></button>
+                </div>
+            </div>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="div1"> 
+                <p><img src="img\star (2).png" alt="">world Best Startup <img src="img\minus (1).png" alt=""></p>
+                <h1>Best Tech <br> Startup Ever</h1>
+                <p>Coca is a startup that's making the world a better place! <br> We've been working on our mission since 2021</p>
+                <div class="div2">
+                    <button type="button" class="btn">Meet The Expert <img src="img\arrow-up-right.png" alt=""></button>
+                    <p> <img src="img\minus (1).png" alt="">Today, we're a team of 200+ who are building the future <br> together by using cutting-edge technology</p>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="div21">
+                <div class="hdiv"><h6>process</h6></div>
+                <h1>Process Our <span>Work</span></h1>
+                <p>Capitale on low hanging fruit to loop identify a ballpark value <br>
+                     odded chutty beta test the digital divided with additional click 
+                    <br> throughs from will close the loop on the bottom</p>
+                <div class="h2div">
+                    <div class="h2div1">
+                        <div class="h2div2">
+                            <img src="img\checkmark.png" alt="">
+                            <h6>Chot</h6>
+                        </div>
+                        <div class="h2div2">
+                            <img src="img\checkmark.png" alt="">
+                            <h6>Research</h6>
+                        </div>
+                    </div>
+                    <div class="h2div1">
+                        <div class="h2div2">
+                            <img src="img\checkmark.png" alt="">
+                            <h6>Transaction</h6>
+                        </div>
+                        <div class="h2div2">
+                            <img src="img\checkmark.png" alt="">
+                            <h6>Deal</h6>
+                        </div>
+                    </div>
+                    </div>
+                <button type="button" class="btn">Get Started Free</button>
+            </div>
+            <div class="div22">
+                <div class="s2div1">
+                    <div>
+                        <img src="img\bot.png" alt="">  
+                    </div>
+                    <div>
+                        <h4>Unique Design</h4>
+                        <p>Value added actreity hete test the digital  <br>
+                            will close the loop on the bottom</p>
+                    </div>
+                </div>
+                <div class="s2div2">
+                    <div>
+                        <img src="img\bot.png" alt="">  
+                    </div>
+                    <div>
+                        <h4>Easy To Customize</h4>
+                        <p>Value added actreity hete test the digital  <br>
+                            will close the loop on the bottom</p>
+                    </div>
+                </div>
+                <div class="s2div3">
+                    <div>
+                        <img src="img\bot.png" alt="">  
+                    </div>
+                    <div>
+                        <h4>Multipurpose Layout</h4>
+                        <p>Value added actreity hete test the digital  <br>
+                            will close the loop on the bottom</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        let navbar= document.querySelector('header nav .header');
+        
+        document.querySelector('#menu-btn').onclick = () => {
+            navbar.classList.toggle('active');
+        }
+        window.onscroll = () =>{
+            navbar.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
